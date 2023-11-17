@@ -8,7 +8,6 @@ Zombie* zombieHorde( int N, std::string name)
 	{
 		new_z[i].set(name);
 		i++;
-
 	}
 	return new_z;
 }
