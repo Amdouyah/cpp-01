@@ -2,6 +2,8 @@
 #define REPLACE_HPP
 
 #include <iostream>
+#include <fstream>
+#include <string>
 
 class rep{
 	private:
