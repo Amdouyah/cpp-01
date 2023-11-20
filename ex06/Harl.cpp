@@ -36,6 +36,7 @@ void Harl::complain(std::string level)
 {
 	void (Harl::*ptr[])(void) = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
 	std::string functions[] = {"DEBUG", "INFO", "WARNING", "ERROR"};
+	std::cout << "[ "<< level << " ]" << std::endl;
 	for(int i = 0; i < 4; i++)
 	{
 		if (functions[i] == level)

@@ -1,8 +1,7 @@
 #include "HumanA.hpp"
 
 HumanA::HumanA(std::string name, Weapon &W) : wep(W) , name(name)
-{
-	
+{	
 };
 HumanA::~HumanA()
 {

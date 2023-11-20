@@ -1,23 +1,18 @@
 #include <iostream>
-
-using std::string;
-using std::endl;
-using std::cout;
-
 // reference is an alias for an existing object
 
 int main(){
-	string var =  "HI THIS IS BRAIN";
-	string  *stringPTR = &var;
-	string &stringREF = var;
+	std::string var =  "HI THIS IS BRAIN";
+	std::string  *stringPTR = &var;
+	std::string &stringREF = var;
 
-	cout << &var << endl;
-	cout << stringPTR << endl;
-	cout << &stringREF << endl;
+	std::cout << &var << std::endl;
+	std::cout << stringPTR << std::endl;
+	std::cout << &stringREF << std::endl;
 
-	cout << "value of var : " << var << endl;
-	cout << "value of stringPTR : " << *stringPTR << endl;
-	cout << "value of stringREF : " << stringREF << endl;
+	std::cout << "value of var : " << var << std::endl;
+	std::cout << "value of stringPTR : " << *stringPTR << std::endl;
+	std::cout << "value of stringREF : " << stringREF << std::endl;
 
 
 	return 0;

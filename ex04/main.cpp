@@ -1,6 +1,6 @@
 #include "replace.hpp"
 
-void	replace_f(std::string &filename, std::string __unused &s1, std::string __unused &s2)
+void	replace_f(std::string &filename, std::string &s1, std::string &s2)
 {
 	std::ifstream inputFile(filename.c_str());
 	if (!inputFile.is_open())

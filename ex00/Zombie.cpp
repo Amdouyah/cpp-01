@@ -12,3 +12,10 @@ std::string Zombie::get()
 {
 	return(this->name);
 }
+Zombie::Zombie()
+{
+}
+Zombie::~Zombie()
+{
+	std::cout << "Zombie " << name << "has been destroyed !" << std::endl;
+}
